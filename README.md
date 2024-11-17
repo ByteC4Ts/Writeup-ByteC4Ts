@@ -1,2 +1,6 @@
-# 1337Up Live CTF 2024 Writeups
-1337Up Live CTF Writeups
+# ByteC4Ts Writeups 2024
+
+## Participated in CTF events
+
+- [BlueHens CTF](https://bluehens.ctfd.io/challenges)
+- [1337Up Live CTF](https://ctf.intigriti.io/challenges)
