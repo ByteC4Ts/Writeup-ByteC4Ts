@@ -2,7 +2,7 @@
 
 ## Name of Challenge
 
-Description of the challenge / Summary of your ideas / Your comments about this challenge / ...
+Description of the challenge / Summary of your ideas / Your comments about this challenge / ...(anything you like)
 
 > Something weird going on at this pizza store!!
 
