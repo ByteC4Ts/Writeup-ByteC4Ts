@@ -20,7 +20,7 @@ We get a file called `flag.png` which is completely blank
 Uploading the `flag.png` to `https://aperisolve.com` we are able to view the [flag](https://www.aperisolve.com/ed9edd995a595a8a6e359ec6719ede98)
 ![aperi.png](aperi.png)
 
-## The Flag is: 
+##Flag: 
 ```
 INTIGRITI{w4rmup_fl46z}
 ```
