@@ -24,4 +24,6 @@ If the problem is very simple, it doesn't have to be divided into steps.
 
 ## Flag
 
-`xxxxx{y0u_are_rea11y_sm4rt}`
+```
+xxxxx{y0u_are_rea11y_sm4rt}
+```
