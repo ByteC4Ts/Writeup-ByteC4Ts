@@ -81,13 +81,13 @@ print(message)
 
 ### Step 2: guess char by char from the start
 
-`.` means there may be no corresponding position of ciphertext for this character, which is a space, or this character is an ASCII value less than `64` (such as a number), etc. However, with prior knowledge, we can immediately see that the first few letters of the flag are `"udctf"`, which allows us to enter the second phase of guessing.
+There are some cases that `.` appears: maybe at this position none of the ciphertext is a space, or the character's ASCII value is less than `64` (such as a digit), etc. However, with prior knowledge, we can immediately see that the first few letters of the flag are `"udctf"`, which allows us to enter the second phase of guessing.
 
-Because this challenge states that the ciphertext is a sentence from a poem, we can always guess a word that is not spelled out based on the semantics of a sentence. As long as the next position of any ciphertext is restored, one can restore one digit of the key.
+Because this challenge states that the ciphertext is a sentence from a poem, we can always guess the next character of an incomplete word based on the semantics of a sentence. As long as the next position of any ciphertext is restored, we can restore that digit of the key.
 
 In theory, this can be repeated indefinitely, but actually after guessing a certain number of characters, we can search them on Google, and find the original text: https://milton.host.dartmouth.edu/reading_room/comus/text.shtml
 
-### Step 3: guess char by char from the start
+### Step 3: restore the entire key
 
 In the third phase, finding a sentence (if it is long enough) can restore the entire key. The final code is as follows, it was not written all at once, but was supplemented while guessing.
 
