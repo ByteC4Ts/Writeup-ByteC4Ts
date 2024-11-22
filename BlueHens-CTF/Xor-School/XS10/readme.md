@@ -1,13 +1,17 @@
 # BlueHens CTF
 
-## XS1
+## XS10
 
-> XS1: XOR without XOR
+> XS10: PHP XOR
+
+> https://bluehens-phpxor.chals.io/
+
+Very similar to XS3.
 
 ## Approach
 
 ## Flag
 
 ```
-udctf{crypto_web_misc_4ll_0f_th3_ab0ve}
+udctf{is_x0r_gu3ssy_0r_n0t?}
 ```
