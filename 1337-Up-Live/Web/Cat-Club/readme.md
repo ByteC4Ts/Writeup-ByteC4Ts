@@ -8,7 +8,7 @@ JWT algorithm confusion & pug.js SSTI.
 
 ## Approach
 
-After registering, notice that `/cats` page will displays the user's username, we can find a SSTI vulnerability in the source code.
+After registering, noticed `/cats` page will displays the user's username, we can find a SSTI vulnerability in the source code.
 
 ```js
 if (typeof req.user != "undefined") {
