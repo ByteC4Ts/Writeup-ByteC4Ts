@@ -6,7 +6,8 @@
 
 ## Approach
 
-The final target is execute `os.system("cp ../flag static")`, so try:
+The banned patterns in payload are `[b"\\", b"static", b"templates", b"flag.txt", b">", b"/", b"."]`,
+and the final target is execute `os.system("cp ../flag static")`, so try:
 
 ```python
 import pickle
