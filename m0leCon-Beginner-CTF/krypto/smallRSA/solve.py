@@ -6,6 +6,7 @@ import os
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 while True:
+    ms = []
     io = process(["python3", "chall.py"])
     io.sendlineafter(b"> ", b"1")
     io.sendlineafter(b"hex: ", b"2")
@@ -13,13 +14,17 @@ while True:
     io.sendlineafter(b"> ", b"1")
     io.sendlineafter(b"hex: ", b"3")
     c2 = int(io.recvlinesS(3)[0].strip(), 16)
+    io.sendlineafter(b"> ", b"1")
+    io.sendlineafter(b"hex: ", b"5")
+    c3 = int(io.recvlinesS(3)[0].strip(), 16)
 
     m1 = pow(2, 0x10001)
     m2 = pow(3, 0x10001)
+    m3 = pow(5, 0x10001)
 
-    n = gcd(m1 - c1, m2 - c2)
+    n = gcd([m1 - c1, m2 - c2, m3 - c3])
 
-    l, r = 0, n
+    l, r = 0, int(sqrt(n))
     p = (l + r) // 2
     while l < r:
         io.sendlineafter(b"> ", b"1")

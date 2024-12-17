@@ -1,6 +1,6 @@
 from pwn import *
 
-PAYLOAD = b"luciferrrr" * 16
+PAYLOAD = b"3rg0u" * 32
 
 
 def check():
@@ -16,10 +16,10 @@ def check():
     return state, flag_encrypted, c_cipher
 
 
-def ret(c):
+def ret(cs):
     res = bytearray()
-    for byte in c:
-        res.append((byte ^ 0xAC) >> 1)
+    for c in cs:
+        res.append((c ^ 0xAC) >> 1)
     return res
 
 
@@ -31,7 +31,8 @@ def main():
     flag = xor(flag_encrypted, key)
     print(flag)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()
 
 """
