@@ -1,4 +1,4 @@
-w# ByteC4Ts Writeups 2024
+# ByteC4Ts Writeups 2024
 
 ## Participated in CTF events
 
