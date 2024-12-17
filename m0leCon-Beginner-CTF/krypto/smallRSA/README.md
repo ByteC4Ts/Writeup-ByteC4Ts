@@ -33,7 +33,7 @@ p = (l + r) // 2
             l, r = p + 1, r
             p = (l + r) // 2
 ```
-Now `p` is obtained, calculate `q` and `euler_phi` to recover `flag`.
+Now `p` is obtained, calculate `q` and `d` to recover `flag`.
 ```python
 q = n // p
 d = pow(0x10001, -1, (p - 1) * (q - 1))

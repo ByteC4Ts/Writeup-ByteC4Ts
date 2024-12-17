@@ -1,4 +1,8 @@
 from pwn import *
+import os
+
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
 
 PAYLOAD = b"3rg0u" * 32
 
@@ -27,7 +31,8 @@ def main():
     state, flag_encrypted, c_cipher = check()
     while not state:
         state, flag_encrypted, c_cipher = check()
-    key = xor(ret(c_cipher), PAYLOAD)
+    c_cipher = ret(c_cipher)
+    key = xor(PAYLOAD, c_cipher)
     flag = xor(flag_encrypted, key)
     print(flag)
 

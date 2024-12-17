@@ -11,17 +11,16 @@ Let's take a quick look at the `otp()` function:
 MAX_LENGTH = 160
 KEY = ''.join(random.choices(
             string.ascii_letters + string.digits, k=160)).encode()
+#len(KEY) = 160
 def otp(p, k):
     k_r = (k * ((len(p) // len(k)) + 1))[:len(p)]
     return bytes([p ^ k for p, k in zip(p, k_r)])
 ```
 
-Notice that if `len(p) == len(k)`, then `k_r = k * 2[:len(p)]`, or basically `k_r = k`.    
-So I will send the payload of _160-byte_ length:
+Notice that if `len(p) == len(k)`, then `k_r = (k * 2)[:len(k)]`, or basically `k_r = k`.    
+So, i'll send the payload of _160-byte_ length:
 ```python
-payload = b'3rg0u' * 32
-key = otp(payload, KEY)
-key = xor(key, payload)
+PAYLOAD = b'3rg0u' * 32
 ```
 Now, we successfully recovered the original `KEY`. The next step is to find original `ciphertext`. Glance at the `check_cat_box()` function:
 ```python
@@ -36,7 +35,7 @@ def check_cat_box(ciphertext, cat_state):
             c[i] ^= 0xCA
     return bytes(c)
 ```
-Get back to the `KEY`, if we print all the values in `string.ascii_letters + string.digits` in binary, all of them have the form `0b0xxxxxxx`. So, we shift them to the left 1-bit, them will become `0bxxxxxxx0`, ez to recover.
+Get back to the `KEY`, if we print all the values of `string.ascii_letters + string.digits` in binary, they have the form `0b0xxxxxxx`. So, when we shift them to the left 1-bit, them will become `0bxxxxxxx0`, ez to recover.
 ```python
 def ret(cs):
     res = bytearray()
@@ -47,7 +46,8 @@ def ret(cs):
 Finally, we have to gacha until ''_the cat still alive_'', get the `ciphertext` and decipher.
 
 ```python
-key = xor(ret(c_cipher), PAYLOAD)
+c_cipher = ret(c_cipher)
+key = xor(PAYLOAD, c_cipher)
 flag = xor(flag_encrypted, key)
 ```
 
