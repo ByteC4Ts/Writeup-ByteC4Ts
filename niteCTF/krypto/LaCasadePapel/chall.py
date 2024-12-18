@@ -4,8 +4,7 @@ import pyfiglet
 
 
 def secret():
-    # just my custom random string
-    return "oiarpbjxafnxxtgroebiw"  # Length = 21
+    return "XXXXXXXXXXXXXXXXXXXXX"  # Length = 21
 
 
 def md5(secret, msg):
@@ -67,10 +66,9 @@ def crack_the_vault():
     with open("secret.txt", "r") as file:
         secret_content = file.read().strip()
         if passs == secret_content:
-            # with open("flag.txt", "r") as flag_file:
-            #     flag_content = flag_file.read().strip()
-            #     print(f"\nVault Unlocked! The flag is: {flag_content}")
-            flag_content = "nite{ByteC4Ts_br1n9_th3_fl4g_b4ck}"
+            with open("flag.txt", "r") as flag_file:
+                flag_content = flag_file.read().strip()
+                print(f"\nVault Unlocked! The flag is: {flag_content}")
             print(f"\nVault Unlocked! The flag is: {flag_content}")
         else:
             print("Incorrect password!")

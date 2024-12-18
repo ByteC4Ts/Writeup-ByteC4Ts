@@ -3,7 +3,10 @@ import os.path as path
 import base64
 
 os.chdir(path.dirname(path.abspath(__file__)))
-io = process(["python3", "chall.py"])
+# io = process(["python3", "chall.py"])
+host = 'serverhost'
+port = 0000
+io = remote(host, port)
 
 
 io.sendlineafter(b"option: ", b"1")

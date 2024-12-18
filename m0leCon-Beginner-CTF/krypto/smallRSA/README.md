@@ -33,9 +33,11 @@ p = (l + r) // 2
             l, r = p + 1, r
             p = (l + r) // 2
 ```
-Now `p` is obtained, calculate `q` and `d` to recover `flag`.
+Cuz `flag < p`, then:
+$$flag\ (\textrm{mod}\ n) \equiv \ flag \ (\textrm{mod}\ p)$$
+$$\implies c^d\ (\textrm{mod}\ n) \equiv \ c^d (\textrm{mod}\ p)$$
+$$where:\;\;e*d \equiv 1 \ (\ \textrm{mod}\ \phi(p)\ )$$
 ```python
-q = n // p
-d = pow(0x10001, -1, (p - 1) * (q - 1))
-flag = long_to_bytes(pow(ct, d, n))
+d = pow(e, -1, p - 1)
+flag = long_to_bytes(pow(ct, d, p))
 ```

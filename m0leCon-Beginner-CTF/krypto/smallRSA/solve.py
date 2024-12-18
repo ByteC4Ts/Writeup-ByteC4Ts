@@ -5,6 +5,8 @@ import os
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
+
+e = 0x10001
 while True:
     ms = []
     io = process(["python3", "chall.py"])
@@ -18,9 +20,9 @@ while True:
     io.sendlineafter(b"hex: ", b"5")
     c3 = int(io.recvlinesS(3)[0].strip(), 16)
 
-    m1 = pow(2, 0x10001)
-    m2 = pow(3, 0x10001)
-    m3 = pow(5, 0x10001)
+    m1 = pow(2, e)
+    m2 = pow(3, e)
+    m3 = pow(5, e)
 
     n = gcd([m1 - c1, m2 - c2, m3 - c3])
 
@@ -39,9 +41,8 @@ while True:
 
     io.sendlineafter(b"> ", b"2")
     ct = int(io.recvlinesS(3)[0], 16)
-    q = n // p
-    d = pow(0x10001, -1, (p - 1) * (q - 1))
-    flag = long_to_bytes(pow(ct, d, n))
+    d = pow(e, -1, p - 1)
+    flag = long_to_bytes(pow(ct, d, p))
     io.close()
     if b"ptm{" in flag:
         print(flag)

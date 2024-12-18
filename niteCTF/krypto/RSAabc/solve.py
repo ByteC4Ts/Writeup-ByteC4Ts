@@ -14,7 +14,7 @@ def mod_inv(inp):
     return [pow(0x10001, -1, phi) for phi in res]
 
 
-def rev_char(char):
+def reverse_char(char):
     if char == "e":
         return "_"
     if char.isupper():
@@ -95,7 +95,7 @@ ds = mod_inv(ns)
 
 for i, ch in enumerate(cipher):
     if ch.isascii():
-        pt += [rev_char(ch)]
+        pt += [reverse_char(ch)]
         continue
     eng = language.get(ch)
     c = googly(cs[i], cs[i].bit_length() - ord(eng))
