@@ -7,7 +7,9 @@
 ## Approach
 
 ```python
-from utils1kuzus import hex_string_to_byte_list
+def hex_string_to_byte_list(hexstr):
+    assert len(hexstr) % 2 == 0
+    return [int(hexstr[i:i + 2], 16) for i in range(0, len(hexstr), 2)]
 
 # nc irrorversible.ctf.intigriti.io 1330
 
