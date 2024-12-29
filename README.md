@@ -7,3 +7,4 @@
 - [WannaGame Championship](https://ctftime.org/event/2515/)
 - [Nite CTF](https://ctftime.org/event/2461)
 - [m0leCon Beginner CTF](https://ctftime.org/event/2578)
+- [0xl4ugh CTF](https://ctftime.org/event/2587)
