@@ -22,7 +22,7 @@ Therefore, the next step is to obtain a board state that can be correctly used f
 
 The challenge hints "beat me in 1 move", which implies that the board state won't differ significantly from the initial state. This part was somewhat guessy for me. At first, I spent a long time trying to modify the initial position of the black king so that my pawn or knight could capture it in one move, but after winning I always got "Not Good Enough".
 
-Then I attempted some bruteforce enumeration strategies. One of them was based on the observation that our pieces always get replaced by the opponent's pieces when they move above the second row. I tried setting the initial states of the white pieces to `0` one by one, and eventually discovered that the board state used for decryption is to set the white king to `0`.
+Then I attempted some brute force enumeration strategies. One of them was based on the observation that our pieces always get replaced by the opponent's pieces when they move above the second row. I tried setting the initial states of the white pieces to `0` one by one, and eventually discovered that the board state used for decryption is to set the white king to `0`.
 
 In the official writeup, it is explained that we need to make the white king capture the black king in one move, just as the black king would directly capture the white king.
 

@@ -6,7 +6,7 @@
 
 ## Approach
 
-Bruteforce.
+Brute force.
 
 ```cpp
 #include <iostream>
