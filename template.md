@@ -1,6 +1,4 @@
-# Name Of CTF
-
-## Name of Challenge
+# Name Of CTF - Name of Challenge
 
 Description of the challenge / Summary of your ideas / Your comments about this challenge / ...(anything you like)
 
@@ -8,11 +6,11 @@ Description of the challenge / Summary of your ideas / Your comments about this 
 
 > https://pizzaparadise.ctf.intigriti.io
 
-It's not eazy!
+(If you don't want to rewrite the background of the question, this part can be omitted.)
 
 ## Approach
 
-If the problem is very simple, it doesn't have to be divided into steps.
+(If the problem is very simple, it doesn't have to be divided into steps.)
 
 ### What to do first...
 

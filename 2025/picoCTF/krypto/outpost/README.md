@@ -1,0 +1,1 @@
+After seizing control of the outpost that oversees the dispatch of messages for the core gangs, we’ve intercepted a key conversation between a newly-elected leader and the Tariaki, a powerful and long-standing gang. To stop a powerful group from taking over and hurting the people, we need YOU to make the most of this information.

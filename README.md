@@ -1,6 +1,8 @@
-# ByteC4Ts Writeups 2024
+# ByteC4Ts Writeups
 
 ## Participated in CTF events
+
+### 2024
 
 - [BlueHens CTF](https://ctftime.org/event/2512/)
 - [1337Up Live CTF](https://ctftime.org/event/2446)
@@ -8,3 +10,10 @@
 - [Nite CTF](https://ctftime.org/event/2461)
 - [m0leCon Beginner CTF](https://ctftime.org/event/2578)
 - [0xl4ugh CTF](https://ctftime.org/event/2587)
+
+### 2025
+
+- [Srdnlen CTF](https://ctftime.org/event/2576)
+- [Nullcon HackIM CTF](https://ctftime.org/event/2642)
+- [Pico CTF](https://play.picoctf.org/events/74)
+- [Cyber Apocalypse CTF 2025: Tales from Eldoria](https://ctf.hackthebox.com/event/details/cyber-apocalypse-ctf-2025-tales-from-eldoria-2107)
