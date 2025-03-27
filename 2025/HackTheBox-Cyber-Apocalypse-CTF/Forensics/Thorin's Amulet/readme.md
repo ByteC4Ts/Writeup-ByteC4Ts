@@ -7,11 +7,11 @@
 
 ### Description
 
-Garrick and Thorin’s visit to Stonehelm took an unexpected turn when Thorin’s old rival, Bron Ironfist, challenged him to a forging contest.
-In the end, Thorin won the contest with a beautifully engineered clockwork amulet, but the victory was marred by an intrusion.
-Saboteurs stole the amulet and left behind some tracks.
-Because of that, it was possible to retrieve the malicious artifact that was used to start the attack.
-Can you analyze it and reconstruct what happened?  
+> Garrick and Thorin’s visit to Stonehelm took an unexpected turn when Thorin’s old rival, Bron Ironfist, challenged him to a forging contest.
+> In the end, Thorin won the contest with a beautifully engineered clockwork amulet, but the victory was marred by an intrusion.
+> Saboteurs stole the amulet and left behind some tracks.
+> Because of that, it was possible to retrieve the malicious artifact that was used to start the attack.
+> Can you analyze it and reconstruct what happened?  
 
 
 This forensics challenge involves analyzing a Base64-encoded PowerShell "malware" script.
