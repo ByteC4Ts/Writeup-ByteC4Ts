@@ -1,4 +1,4 @@
-# Enchanted Weights
+# Crystal Corruption
 
 I completed all the ML challenges on [Google Colab](https://colab.google/).
 

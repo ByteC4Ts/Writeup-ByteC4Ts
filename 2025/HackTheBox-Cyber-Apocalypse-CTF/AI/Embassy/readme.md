@@ -103,6 +103,7 @@ def start(rounds=10):
             if resp_json["status"] == "pending":
                 continue
             break
+
         print("[*] Challenge Response:", resp.text)
         if resp_json["entry"] != "denied":
             print("[+++]", resp_json["flag"])
