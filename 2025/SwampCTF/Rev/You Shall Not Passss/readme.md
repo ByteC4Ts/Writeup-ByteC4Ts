@@ -96,7 +96,7 @@ In x86_64, when the number of parameters is less than `6`, they are passed via r
 
 ![rev1-3.jpg](rev1-3.jpg)
 
-The `4b`~`97` part of the code is a loop, which is used to compare the `al ^ input[i]` (`78`~`7d`) with `unk_4140[i]` (`84`~`89`). Fortunately the content of `unk_4140` is not modified dynamically, so we can get the content of `unk_4140` by statically analyzing the code.
+The `4b`\~`97` part of the code is a loop, which is used to compare the `al ^ input[i]` (`78`\~`7d`) with `unk_4140[i]` (`84`\~`89`). Fortunately the content of `unk_4140` is not modified dynamically, so we can get the content of `unk_4140` by statically analyzing the code.
 
 If the `input` is real flag, the comparison will be passed. So the last step is to recover the calculation process of `al ^ input[i]`. Here's the Python code:
 
