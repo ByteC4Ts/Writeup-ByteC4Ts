@@ -73,7 +73,7 @@ python server.py
 
 Run:
 
-```
+```bash
 ssh -R 80:localhost:5003 serveo.net
 ```
 
@@ -119,7 +119,7 @@ print(f"Report to admin: https://do-not-cheat-bb7d7982d597.1753ctf.com/report?do
 
 Run the script:
 
-```
+```bash
 python exp.py
 ```
 

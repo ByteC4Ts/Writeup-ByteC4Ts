@@ -1,4 +1,4 @@
-# 1753 CTF - Free Flag
+# 1753 CTF - Vibe Coding
 
 ## Approach
 
@@ -9,4 +9,4 @@
 throw new Error(eval("get" + "Flag" + "()"))
 ```
 
-![3.jpg](3.jpg)
+![3.png](3.png)

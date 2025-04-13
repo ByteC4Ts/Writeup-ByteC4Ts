@@ -2,7 +2,7 @@
 
 ## Approach
 
-We need an `ADMIN` role to get the second flag, let's first see how the server checks the `ADMIN role:
+We need an `ADMIN` role to get the second flag, let's first see how the server checks the `ADMIN` role:
 
 During the registration:
 
