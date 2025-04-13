@@ -18,3 +18,5 @@
 - [Pico CTF](https://play.picoctf.org/events/74)
 - [Cyber Apocalypse CTF 2025: Tales from Eldoria](https://ctf.hackthebox.com/event/details/cyber-apocalypse-ctf-2025-tales-from-eldoria-2107)
 - [Swamp CTF](https://ctftime.org/event/2573)
+- [squ1rrel CTF](https://ctftime.org/event/2708)
+- [1753 CTF](https://ctftime.org/event/2639)
