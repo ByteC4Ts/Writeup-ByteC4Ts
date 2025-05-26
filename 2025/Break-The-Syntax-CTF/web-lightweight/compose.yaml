@@ -1,8 +1,0 @@
-# just to make testing easier
-
-services:
-  ldap:
-    build: .
-    ports: 
-      - "5000:80"
-      - "389:389"
