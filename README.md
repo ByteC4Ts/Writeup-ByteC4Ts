@@ -31,5 +31,13 @@
 
 <!-- links -->
 
+<!--
+    define here:
+        [unique-linkid]: https://your.external.link
+
+    use in markdown:
+        [display text][unique-linkid]
+ -->
+
 [1kuzus-event2639]: https://1kuzus.github.io/25b/wp-1753ctf-2025/
 [0x42697262-event2674]: https://0x42697262.github.io/birbrain/writeups/HackTheBox/a-new-hire.html
