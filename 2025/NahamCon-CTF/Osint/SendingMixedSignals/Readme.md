@@ -12,14 +12,14 @@ Turns out the Houthi PC Small Group was only the tip of the iceberg...
 
 - We access the server and see this page.
 
-![[Signal-main.png]]
+!(Signal-main)[./img/Signal-main.png)
 
 - This is the [link](https://www.theatlantic.com/politics/archive/2025/03/trump-administration-accidentally-texted-me-its-war-plans/682151/) they provided in the challenge.
 - It talks about some leaked military plan because they used a knock-off version of signal.
 
 - We can find the name of the application by some simple google search.
 
-![[googleSearch.png]]
+![googleSearch](./img/googleSearch.png)
 
 - We check the first link: https://www.wired.com/story/how-the-signal-knock-off-app-telemessage-got-hacked-in-20-minutes/
 - The app name is `TM SGNL`.
@@ -30,7 +30,7 @@ Turns out the Houthi PC Small Group was only the tip of the iceberg...
 - We  do another google search by searching `TM SGNL hardcoded credentails`
 - We find this nice blog: https://micahflee.com/heres-the-source-code-for-the-unofficial-signal-app-used-by-trump-officials/
 
-![[creds.png]]
+![creds](./img/creds.png)
 
 - The answer to the first question is: `enRR8UVVywXYbFkqU#QDPRkO`
 
@@ -38,7 +38,7 @@ Turns out the Houthi PC Small Group was only the tip of the iceberg...
 - We scroll down and find the answer to the second question:
 `Find the email address of the developer who added the hard-coded credential from question one to the code base (format name@email.site)`
 
-![[email.png]]
+![email](./img/email.png)
 
 - The answer to the second question is: `moti@telemessage.com`
 
@@ -100,7 +100,7 @@ Date:   Thu Jun 10 21:18:45 2021 +0300
 git show e9af27c382a86c3f2f666d479c1f7215ed18df9e
 ```
 
-![[commit.png]]
+![commit](./img/commit.png)
 
 - We verify that it's the commit where the credentials were added.
 - We check the tag in the commit and find the version.
