@@ -13,26 +13,22 @@
 
 ## 2025
 
-| Event                                                         |   Rank   | Top % |                                    Writeups/Solutions                                    |
-| ------------------------------------------------------------- | :------: | :---: | :--------------------------------------------------------------------------------------: |
-| [Srdnlen CTF](https://ctftime.org/event/2576)                 | 162/848  |  20%  |                                                                                          |
-| [Nullcon HackIM CTF](https://ctftime.org/event/2642)          | 304/1115 |  28%  |                            [Github](2025/Nullcon-HackIM-CTF/)                            |
-| [Pico CTF](https://play.picoctf.org/events/74)                | 144/6533 | 2.3%  |                                 [Github](2025/picoCTF/)                                  |
-| [Cyber Apocalypse CTF 2025](https://ctftime.org/event/2674)   | 445/4038 |  12%  |                     [Github](2025/HackTheBox-Cyber-Apocalypse-CTF/)                      |
-| [Swamp CTF](https://ctftime.org/event/2573)                   |  22/751  | 3.0%  |                                 [Github](2025/SwampCTF/)                                 |
-| [squ1rrel CTF](https://ctftime.org/event/2708)                |  47/611  | 7.7%  |                                                                                          |
-| [1753 CTF](https://ctftime.org/event/2639)                    |  43/467  | 9.3%  |                                 [Github](2025/1753CTF/)                                  |
-| [Dawg CTF](https://ctftime.org/event/2651)                    |  82/760  |  11%  |                                                                                          |
-| [DevSecOps CTF](https://ctftime.org/event/2682)               |  27/449  | 6.1%  |                                                                                          |
-| [Break the Syntax CTF](https://ctftime.org/event/2749)        |  74/484  |  16%  |                           [Github](2025/Break-The-Syntax-CTF/)                           |
-| [DamCTF 2025](https://ctftime.org/event/2585)                 | 124/781  |  16%  |                                                                                          |
-| [Midnight Sun CTF 2025 Quals](https://ctftime.org/event/2632) |  59/577  |  11%  |                                                                                          |
-| [NahamCon CTF 2025](https://ctftime.org/event/2782)           | 41/1721  | 2.4%  | [Github](2025/NahamCon-CTF/) / [test1](test1) / test2[test2] / test3[^3] / test4[^test4] |
+| Event                                                         |   Rank   | Top % |               Writeups/Solutions                |
+| ------------------------------------------------------------- | :------: | :---: | :---------------------------------------------: |
+| [Srdnlen CTF](https://ctftime.org/event/2576)                 | 162/848  |  20%  |                                                 |
+| [Nullcon HackIM CTF](https://ctftime.org/event/2642)          | 304/1115 |  28%  |       [Github](2025/Nullcon-HackIM-CTF/)        |
+| [Pico CTF](https://play.picoctf.org/events/74)                | 144/6533 | 2.3%  |             [Github](2025/picoCTF/)             |
+| [Cyber Apocalypse CTF 2025](https://ctftime.org/event/2674)   | 445/4038 |  12%  | [Github](2025/HackTheBox-Cyber-Apocalypse-CTF/) |
+| [Swamp CTF](https://ctftime.org/event/2573)                   |  22/751  | 3.0%  |            [Github](2025/SwampCTF/)             |
+| [squ1rrel CTF](https://ctftime.org/event/2708)                |  47/611  | 7.7%  |                                                 |
+| [1753 CTF](https://ctftime.org/event/2639)                    |  43/467  | 9.3%  |             [Github](2025/1753CTF/)             |
+| [Dawg CTF](https://ctftime.org/event/2651)                    |  82/760  |  11%  |                                                 |
+| [DevSecOps CTF](https://ctftime.org/event/2682)               |  27/449  | 6.1%  |                                                 |
+| [Break the Syntax CTF](https://ctftime.org/event/2749)        |  74/484  |  16%  |      [Github](2025/Break-The-Syntax-CTF/)       |
+| [DamCTF 2025](https://ctftime.org/event/2585)                 | 124/781  |  16%  |                                                 |
+| [Midnight Sun CTF 2025 Quals](https://ctftime.org/event/2632) |  59/577  |  11%  |                                                 |
+| [NahamCon CTF 2025](https://ctftime.org/event/2782)           | 41/1721  | 2.4%  |     [Github](2025/NahamCon-CTF/) / [test2] / [no] / [text11](test2) / [Google][test2]   |
 
 <!-- links -->
 
-[test1]: https://www.google.com/1
-[test2]: https://www.google.com/2
-
-[^3]: https://www.google.com/3
-[^test4]: https://www.google.com/4
+[test2]: https://www.google.com/
