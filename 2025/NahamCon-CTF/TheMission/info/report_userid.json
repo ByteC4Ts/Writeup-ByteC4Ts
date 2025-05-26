@@ -1,0 +1,1445 @@
+{
+    "359fb73c-cbe8-4b1b-b7d9-fa26c4ed1f0b": {
+        "reports": [
+            {
+                "id": "38e57e11-2000-4d7a-ad99-ed273db8757b",
+                "company": "SecureFlux",
+                "title": "Reflected XSS in search parameter",
+                "status": "PAID",
+                "paid": 2764
+            },
+            {
+                "id": "8d81d472-ff27-4ac2-8e5e-eb068e520201",
+                "company": "SecureFlux",
+                "title": "IDOR on user settings endpoint",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "a42806c0-59c5-4096-9cf2-d0ad4b49c67a",
+                "company": "BugNetics",
+                "title": "SQL injection in login form",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "2c63c971-591c-4394-baf1-205e479c4650",
+                "company": "VulneraCorp",
+                "title": "Insecure JWT signature handling",
+                "status": "PAID",
+                "paid": 284
+            },
+            {
+                "id": "a2db969c-fba4-4b88-8672-4370ea6a79db",
+                "company": "RedBarrier",
+                "title": "Broken access control on admin panel",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "961fd204-8932-419d-91e8-c452b2ceead6",
+                "company": "CyberSentinel",
+                "title": "SQL injection in login form",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "a4a082bf-be83-4675-a323-5471dc0ba4b4",
+                "company": "RedBarrier",
+                "title": "RCE through log file injection",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "c24c8b4a-f8ab-42e1-9dcd-a43696a438fb",
+                "company": "HackSecure",
+                "title": "Reflected XSS in search parameter",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "8d6031ef-6239-460d-9755-4c0012175992",
+                "company": "HackSecure",
+                "title": "Reflected XSS in search parameter",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "816a4374-f284-4335-b76e-c9b921bbc1ce",
+                "company": "ZeroScope",
+                "title": "IDOR on user settings endpoint",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "2e0ce7e0-76a3-41f6-a0ca-161a5fd22dec",
+                "company": "InvisoLogic",
+                "title": "Broken access control on admin panel",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "767e089b-dfdd-4da8-9e6c-cf61fbcfa56e",
+                "company": "InvisoLogic",
+                "title": "Privilege escalation via role misconfiguration",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "4cde541d-0aad-41e2-9796-29eb9605ef73",
+                "company": "ZeroScope",
+                "title": "Privilege escalation via role misconfiguration",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "18b76173-81ed-42fe-a081-c934b2b29aea",
+                "company": "RedBarrier",
+                "title": "Open redirect on email verification link",
+                "status": "PAID",
+                "paid": 2647
+            },
+            {
+                "id": "869e6df2-0089-42f7-87e4-3dca156dbc79",
+                "company": "HackSecure",
+                "title": "IDOR on user settings endpoint",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "ceaaed6e-473a-4f2b-bd3f-a16aeed0c021",
+                "company": "HackSecure",
+                "title": "SQL injection in login form",
+                "status": "PAID",
+                "paid": 3492
+            },
+            {
+                "id": "ff309ab0-7390-4b8b-8da3-63fe0ed308d9",
+                "company": "CyberSentinel",
+                "title": "Open redirect on email verification link",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "4cad04d2-b19f-41c0-b551-016ddc10efda",
+                "company": "DarkPatch Labs",
+                "title": "Exposed S3 bucket with PII",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "fc7ec9c2-bfd7-45e4-8e50-98b35a073bd6",
+                "company": "RedBarrier",
+                "title": "CSRF on payment update form",
+                "status": "PAID",
+                "paid": 3417
+            },
+            {
+                "id": "cf094e81-1b5f-4614-8fc3-fee3894377d3",
+                "company": "CyberSentinel",
+                "title": "Privilege escalation via role misconfiguration",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "901787c8-1002-4184-8209-7e2dd109d975",
+                "company": "VulneraCorp",
+                "title": "Privilege escalation via role misconfiguration",
+                "status": "PAID",
+                "paid": 4439
+            },
+            {
+                "id": "e091b6c0-d75c-4614-bd12-9f69f1c2c862",
+                "company": "InvisoLogic",
+                "title": "Exposed S3 bucket with PII",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "9852abda-a5bd-4bfd-927c-012003273c4f",
+                "company": "BugNetics",
+                "title": "Broken access control on admin panel",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "8abbd4b5-ed9d-469d-8c40-1eae7cef12ff",
+                "company": "InvisoLogic",
+                "title": "Privilege escalation via role misconfiguration",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "54d9e720-437c-49be-83b0-7548a4eeface",
+                "company": "HackSecure",
+                "title": "Privilege escalation via role misconfiguration",
+                "status": "DUPLICATED",
+                "paid": 0
+            }
+        ]
+    },
+    "5b2d7302-a424-4c41-9412-b378acedda08": {
+        "reports": [
+            {
+                "id": "00bc455f-65f0-48e2-9e7c-1fdb975a129c",
+                "company": "VulneraCorp",
+                "title": "Broken access control on admin panel",
+                "status": "PAID",
+                "paid": 4267
+            },
+            {
+                "id": "9556c38d-ec75-42fb-a998-ef45cef00fc4",
+                "company": "CyberSentinel",
+                "title": "Broken access control on admin panel",
+                "status": "PAID",
+                "paid": 4991
+            },
+            {
+                "id": "5d0b3d89-1163-4934-8c24-0ce1762a87cd",
+                "company": "VulneraCorp",
+                "title": "IDOR on user settings endpoint",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "64e091aa-eb15-459c-a44d-69ad28a2b43f",
+                "company": "VulneraCorp",
+                "title": "SQL injection in login form",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "5e667d83-0250-4459-bc56-af9257bc9b5b",
+                "company": "BugNetics",
+                "title": "RCE through log file injection",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "aad303e9-2939-47fb-81d8-1ee4a24ab162",
+                "company": "ZeroScope",
+                "title": "Reflected XSS in search parameter",
+                "status": "PAID",
+                "paid": 3707
+            },
+            {
+                "id": "14fe7918-eaaf-4567-87cc-56f0f88c6b03",
+                "company": "RedBarrier",
+                "title": "IDOR on user settings endpoint",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "b9c13593-e8f7-46a9-9e02-54b270708187",
+                "company": "VulneraCorp",
+                "title": "CSRF on payment update form",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "914641ba-b201-42ac-80bf-6caa34095697",
+                "company": "DarkPatch Labs",
+                "title": "Insecure JWT signature handling",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "bed0b7ca-106d-4ea2-8089-78710bba4fb3",
+                "company": "ZeroScope",
+                "title": "Open redirect on email verification link",
+                "status": "PAID",
+                "paid": 309
+            },
+            {
+                "id": "35f1a0da-9c41-4fc8-a5b8-dece0e9769af",
+                "company": "HackSecure",
+                "title": "Open redirect on email verification link",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "6604a79e-e1f0-4492-9f1b-2033008c00a4",
+                "company": "SecureFlux",
+                "title": "Open redirect on email verification link",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "6e8e4a79-815e-48c0-a938-7c0760b49bc0",
+                "company": "BugNetics",
+                "title": "Insecure JWT signature handling",
+                "status": "PAID",
+                "paid": 3973
+            },
+            {
+                "id": "31c4e9ef-79f1-4864-b3d8-78e846285672",
+                "company": "HackSecure",
+                "title": "Exposed S3 bucket with PII",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "01d2ec53-a487-49a0-bc6d-37a0d70f7494",
+                "company": "InvisoLogic",
+                "title": "Exposed S3 bucket with PII",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "2de0a80b-20a8-4fed-a303-3ebf9428894c",
+                "company": "DarkPatch Labs",
+                "title": "IDOR on user settings endpoint",
+                "status": "PAID",
+                "paid": 3790
+            },
+            {
+                "id": "e46e7064-3bc8-42eb-904e-0c4cc1acdbde",
+                "company": "InvisoLogic",
+                "title": "Reflected XSS in search parameter",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "a6ceeb0d-b358-4dd4-bce0-a8e9d9c27021",
+                "company": "InvisoLogic",
+                "title": "SQL injection in login form",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "4ce16714-845d-4e2f-ac05-bd00768dc103",
+                "company": "SecureFlux",
+                "title": "Open redirect on email verification link",
+                "status": "PAID",
+                "paid": 1197
+            },
+            {
+                "id": "9030c3e8-816d-4563-8421-206a4ca3319f",
+                "company": "HackSecure",
+                "title": "Exposed S3 bucket with PII",
+                "status": "PAID",
+                "paid": 4232
+            },
+            {
+                "id": "e53b7129-600e-441a-b69a-cc880398fbe7",
+                "company": "BugNetics",
+                "title": "Open redirect on email verification link",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "3526be2f-dc29-4df7-a189-e499e9874e56",
+                "company": "BugNetics",
+                "title": "IDOR on user settings endpoint",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "a5218047-5731-45ed-a2de-e0d94896cf12",
+                "company": "SecureFlux",
+                "title": "Open redirect on email verification link",
+                "status": "DUPLICATED",
+                "paid": 0
+            }
+        ]
+    },
+    "15ee453d-18c7-419b-a3a6-ef8f2cc1271f": {
+        "reports": [
+            {
+                "id": "c03dd42e-d929-4a50-9a8e-1ab6b2dd5e8a",
+                "company": "Yahoo!",
+                "title": "SSRF > RCE On PDF Generator",
+                "status": "PENDING",
+                "paid": 0
+            },
+            {
+                "id": "62608163-a4df-44ff-9faf-c594aadcb136",
+                "company": "InvisoLogic",
+                "title": "IDOR on user settings endpoint",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "dd69465e-f719-48b1-a246-099d95a515a7",
+                "company": "VulneraCorp",
+                "title": "Insecure JWT signature handling",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "b8634d81-3937-4e85-8a56-5ca8ca2df76a",
+                "company": "CyberSentinel",
+                "title": "Broken access control on admin panel",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "e6c5f035-ef2d-4138-b9d9-51931d83ce1b",
+                "company": "VulneraCorp",
+                "title": "Privilege escalation via role misconfiguration",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "1486fdfa-8669-45a4-812d-e49718157247",
+                "company": "RedBarrier",
+                "title": "Exposed S3 bucket with PII",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "c944d10c-833a-45b7-bd0f-9977e38d0683",
+                "company": "RedBarrier",
+                "title": "CSRF on payment update form",
+                "status": "PAID",
+                "paid": 4752
+            },
+            {
+                "id": "7db3dc42-400c-4106-b7a9-c42f6183449b",
+                "company": "VulneraCorp",
+                "title": "Broken access control on admin panel",
+                "status": "PAID",
+                "paid": 4176
+            },
+            {
+                "id": "fe839499-ab39-4aff-897b-78fab814be98",
+                "company": "RedBarrier",
+                "title": "CSRF on payment update form",
+                "status": "PAID",
+                "paid": 4111
+            },
+            {
+                "id": "4d53a385-519f-401d-af6e-522b42f6769d",
+                "company": "RedBarrier",
+                "title": "Privilege escalation via role misconfiguration",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "b9c7c90e-0530-4852-bae0-b15a9d8ef803",
+                "company": "VulneraCorp",
+                "title": "RCE through log file injection",
+                "status": "PAID",
+                "paid": 1950
+            },
+            {
+                "id": "256ac7e7-42ef-489b-93a8-c6fe106c9a6d",
+                "company": "DarkPatch Labs",
+                "title": "Broken access control on admin panel",
+                "status": "PAID",
+                "paid": 1768
+            },
+            {
+                "id": "76c843dc-6498-47cf-bfcd-b9a54bb90856",
+                "company": "CyberSentinel",
+                "title": "Open redirect on email verification link",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "056a62b5-69f2-4e74-a803-e899a6960c88",
+                "company": "InvisoLogic",
+                "title": "Privilege escalation via role misconfiguration",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "4dac74c7-c973-40d0-8dc5-c6fc78b9a84e",
+                "company": "BugNetics",
+                "title": "RCE through log file injection",
+                "status": "PAID",
+                "paid": 4057
+            },
+            {
+                "id": "484394b3-c7d1-4389-b72e-594911475d03",
+                "company": "RedBarrier",
+                "title": "Privilege escalation via role misconfiguration",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "5fc18780-2897-450f-a96e-3cae513ba331",
+                "company": "ZeroScope",
+                "title": "SQL injection in login form",
+                "status": "PAID",
+                "paid": 1802
+            },
+            {
+                "id": "a0811be9-394b-4db9-b4c6-d406f4d67580",
+                "company": "ZeroScope",
+                "title": "CSRF on payment update form",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "688c24cb-de83-4768-888f-7a79d6334b62",
+                "company": "SecureFlux",
+                "title": "Exposed S3 bucket with PII",
+                "status": "ACCEPTED",
+                "paid": 0
+            }
+        ]
+    },
+    "4d513e52-a79a-417a-8199-cc091220f340": {
+        "reports": [
+            {
+                "id": "b65cb691-c3bb-4830-af15-8c0ea84d2e93",
+                "company": "VulneraCorp",
+                "title": "CSRF on payment update form",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "2debe542-2a62-476f-a690-eae6ded6bf87",
+                "company": "RedBarrier",
+                "title": "Insecure JWT signature handling",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "1e2786ff-0531-4b9b-b849-ecb9933b68be",
+                "company": "InvisoLogic",
+                "title": "CSRF on payment update form",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "8d82b4de-21bd-4331-a078-a47cff503ae3",
+                "company": "ZeroScope",
+                "title": "IDOR on user settings endpoint",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "b0777eb3-8aa1-4fa8-8ae1-1e1fe47f59d2",
+                "company": "InvisoLogic",
+                "title": "SQL injection in login form",
+                "status": "PAID",
+                "paid": 1227
+            },
+            {
+                "id": "4f79acd0-762f-4da3-b9cd-08323f3031b2",
+                "company": "HackSecure",
+                "title": "Broken access control on admin panel",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "262d0fcb-c250-4fd1-bf75-ae978b8ff083",
+                "company": "CyberSentinel",
+                "title": "Reflected XSS in search parameter",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "12b5e5a4-1034-4452-a78f-e6fa91c59d8d",
+                "company": "SecureFlux",
+                "title": "Exposed S3 bucket with PII",
+                "status": "PAID",
+                "paid": 4230
+            },
+            {
+                "id": "9c110597-0bc8-40f1-bf67-e94226c2e082",
+                "company": "VulneraCorp",
+                "title": "Broken access control on admin panel",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "c2aef100-91d6-47a3-b38d-2066b53bd2eb",
+                "company": "DarkPatch Labs",
+                "title": "Privilege escalation via role misconfiguration",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "ecab19ac-c1d6-4587-81a5-1c58cf2dc9bb",
+                "company": "QuantumWall",
+                "title": "RCE through log file injection",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "69b7c5b3-977b-4dc1-bc40-8c5ba6e5599e",
+                "company": "DarkPatch Labs",
+                "title": "IDOR on user settings endpoint",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "90737449-9e63-4892-8962-a49e7ec4ebb4",
+                "company": "BugNetics",
+                "title": "SQL injection in login form",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "bded332e-9da9-483b-bbb6-f979f69a8dda",
+                "company": "QuantumWall",
+                "title": "Reflected XSS in search parameter",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "c3887ea6-0bc9-429f-a731-a21ab1d8a47f",
+                "company": "HackSecure",
+                "title": "Privilege escalation via role misconfiguration",
+                "status": "PAID",
+                "paid": 2122
+            },
+            {
+                "id": "637f7935-1c1e-494f-8d7b-06e61a3f2bac",
+                "company": "InvisoLogic",
+                "title": "SQL injection in login form",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "21fc2a2a-cdce-43f4-9b3f-7d8dd80c2367",
+                "company": "HackSecure",
+                "title": "Insecure JWT signature handling",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "da946adb-06f7-47b8-b3b9-981387c6ff12",
+                "company": "DarkPatch Labs",
+                "title": "IDOR on user settings endpoint",
+                "status": "PAID",
+                "paid": 3779
+            },
+            {
+                "id": "53c4605f-70e1-4865-b131-f26551780a68",
+                "company": "BugNetics",
+                "title": "Exposed S3 bucket with PII",
+                "status": "PAID",
+                "paid": 4236
+            },
+            {
+                "id": "1206e05e-f184-4014-a40f-6a2bc60eb460",
+                "company": "BugNetics",
+                "title": "Insecure JWT signature handling",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "add31dca-6ab0-4d4b-8fb6-670510ff02a6",
+                "company": "QuantumWall",
+                "title": "Privilege escalation via role misconfiguration",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "ee6b5761-8309-45e1-b805-851dbf84d5a0",
+                "company": "DarkPatch Labs",
+                "title": "SQL injection in login form",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "5c3f3f81-836e-48cd-ad01-4c973b4da0b9",
+                "company": "HackSecure",
+                "title": "Open redirect on email verification link",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "5cfbf953-a3ec-4bf6-bf19-6b9e03dbf3cf",
+                "company": "BugNetics",
+                "title": "Broken access control on admin panel",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "e9abb12d-d229-480b-bde2-07e4f0fa8434",
+                "company": "InvisoLogic",
+                "title": "IDOR on user settings endpoint",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "9ed81c2c-78fc-4528-a0a9-d99dd3478630",
+                "company": "RedBarrier",
+                "title": "Insecure JWT signature handling",
+                "status": "PAID",
+                "paid": 1248
+            },
+            {
+                "id": "0d3916d1-0793-461f-b958-8edbd0d7e0fd",
+                "company": "InvisoLogic",
+                "title": "CSRF on payment update form",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "4e5f6077-cc0d-4337-8dc6-4095a39e47a0",
+                "company": "HackSecure",
+                "title": "CSRF on payment update form",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "22bff43f-7fd7-4202-aaae-e02c69804361",
+                "company": "ZeroScope",
+                "title": "Reflected XSS in search parameter",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "661f2443-0101-4abc-8958-07502a6f31ed",
+                "company": "HackSecure",
+                "title": "CSRF on payment update form",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "0ee60dc9-0761-4942-a39c-38f75cf085bf",
+                "company": "ZeroScope",
+                "title": "SQL injection in login form",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "6ec8ab90-57c0-4d5b-a229-7538df84b6e0",
+                "company": "SecureFlux",
+                "title": "SQL injection in login form",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "51b82789-da67-4655-be34-337eb088ea78",
+                "company": "CyberSentinel",
+                "title": "Insecure JWT signature handling",
+                "status": "PAID",
+                "paid": 4030
+            },
+            {
+                "id": "9d5d0ea9-c040-4b00-85b7-6c2c29ffbe0f",
+                "company": "RedBarrier",
+                "title": "Privilege escalation via role misconfiguration",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "e5cdfd3d-afe8-4e25-a17f-a53eaa81278f",
+                "company": "DarkPatch Labs",
+                "title": "Insecure JWT signature handling",
+                "status": "PAID",
+                "paid": 4722
+            },
+            {
+                "id": "0836d048-ecfe-4d21-b624-986e26acd68a",
+                "company": "QuantumWall",
+                "title": "Reflected XSS in search parameter",
+                "status": "ACCEPTED",
+                "paid": 0
+            }
+        ]
+    },
+    "bbccd010-bbd0-4b48-9c34-f4e151c4d9e4": {
+        "reports": [
+            {
+                "id": "9974fa18-78be-4610-b673-2d28e7560e94",
+                "company": "BugNetics",
+                "title": "SQL injection in login form",
+                "status": "PAID",
+                "paid": 1949
+            },
+            {
+                "id": "68584e4d-6894-41bd-a9ab-df60bd6bc802",
+                "company": "QuantumWall",
+                "title": "RCE through log file injection",
+                "status": "PAID",
+                "paid": 292
+            },
+            {
+                "id": "11db5ad6-082d-431d-942c-7a71d0bd0b20",
+                "company": "ZeroScope",
+                "title": "IDOR on user settings endpoint",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "31ce3758-064a-4276-9e6c-060107f9ce01",
+                "company": "CyberSentinel",
+                "title": "IDOR on user settings endpoint",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "425f461b-ae99-45f8-a2a8-840b948cba21",
+                "company": "QuantumWall",
+                "title": "Open redirect on email verification link",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "3a8c9b79-2767-4273-adaa-84a93510dc39",
+                "company": "BugNetics",
+                "title": "Privilege escalation via role misconfiguration",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "1f663114-3e86-4399-941f-1e9017263eb3",
+                "company": "DarkPatch Labs",
+                "title": "CSRF on payment update form",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "921a627d-33b4-4110-823a-29438334e2d8",
+                "company": "QuantumWall",
+                "title": "SQL injection in login form",
+                "status": "PAID",
+                "paid": 1038
+            },
+            {
+                "id": "fc3f3ea1-f67b-4dc0-840a-5338881d06a1",
+                "company": "VulneraCorp",
+                "title": "IDOR on user settings endpoint",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "fc009b04-0b97-4c52-8678-1ffb44b06cc4",
+                "company": "CyberSentinel",
+                "title": "Insecure JWT signature handling",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "ba81d710-c914-4444-9bfd-33e8fe483357",
+                "company": "InvisoLogic",
+                "title": "Broken access control on admin panel",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "a44d1e43-4a4c-496a-9244-8dc20978ac9e",
+                "company": "BugNetics",
+                "title": "Insecure JWT signature handling",
+                "status": "PAID",
+                "paid": 759
+            },
+            {
+                "id": "fa620549-4422-46de-8ce6-e6fd14a6685b",
+                "company": "VulneraCorp",
+                "title": "Exposed S3 bucket with PII",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "86b943fd-092f-4a19-b5a3-5bff28869438",
+                "company": "HackSecure",
+                "title": "Broken access control on admin panel",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "723bb7c0-db0f-457c-8da3-7617652e27fd",
+                "company": "CyberSentinel",
+                "title": "SQL injection in login form",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "a477d003-131e-4698-9f45-3cff66053569",
+                "company": "InvisoLogic",
+                "title": "Reflected XSS in search parameter",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "b4f581f5-e0ad-4864-8e40-cb60ef862820",
+                "company": "ZeroScope",
+                "title": "IDOR on user settings endpoint",
+                "status": "PAID",
+                "paid": 4503
+            },
+            {
+                "id": "87540608-e7bb-41bd-98be-3552309fc3f8",
+                "company": "CyberSentinel",
+                "title": "Exposed S3 bucket with PII",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "5bd59570-fbfb-46ae-bd99-0a2a86f21624",
+                "company": "VulneraCorp",
+                "title": "RCE through log file injection",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "dd485f9f-54e4-43ce-9292-3516e59a8a78",
+                "company": "VulneraCorp",
+                "title": "SQL injection in login form",
+                "status": "PAID",
+                "paid": 4523
+            },
+            {
+                "id": "fa6a28ca-eacd-46e6-b591-5514bc8b6a32",
+                "company": "RedBarrier",
+                "title": "Privilege escalation via role misconfiguration",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "dd1df49a-8a4d-40bf-8289-fcbec936bf05",
+                "company": "ZeroScope",
+                "title": "IDOR on user settings endpoint",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "d24321e9-930d-4896-ba76-359e4a5a9496",
+                "company": "QuantumWall",
+                "title": "Reflected XSS in search parameter",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "fb9289a9-a5c1-4a2e-a8af-c5180a1ba160",
+                "company": "QuantumWall",
+                "title": "Privilege escalation via role misconfiguration",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "ab2eba22-7cc0-4f7f-b1d3-ef9b4c3321c4",
+                "company": "QuantumWall",
+                "title": "CSRF on payment update form",
+                "status": "PAID",
+                "paid": 3946
+            },
+            {
+                "id": "96adf03c-6a02-40b6-9330-3ea3241a4167",
+                "company": "DarkPatch Labs",
+                "title": "Exposed S3 bucket with PII",
+                "status": "PAID",
+                "paid": 1679
+            }
+        ]
+    },
+    "30ec2071-eb96-4785-9a9a-c79b438f6181": {
+        "reports": [
+            {
+                "id": "a3276b2c-1b75-482a-b733-51f774822f7b",
+                "company": "HackSecure",
+                "title": "Privilege escalation via role misconfiguration",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "3b212747-d5c1-4a24-b523-d3670c499ea3",
+                "company": "InvisoLogic",
+                "title": "Exposed S3 bucket with PII",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "bbe921b1-063b-41bd-bebe-ab7c9626bf6d",
+                "company": "SecureFlux",
+                "title": "CSRF on payment update form",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "027c355c-9706-42c4-a379-8de8b127a49f",
+                "company": "HackSecure",
+                "title": "Insecure JWT signature handling",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "c185f0ea-6f75-45db-a7e2-e3d4e436e70f",
+                "company": "ZeroScope",
+                "title": "Open redirect on email verification link",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "5415aaa2-b3bf-4da9-be2f-3de9796e78c6",
+                "company": "HackSecure",
+                "title": "Privilege escalation via role misconfiguration",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "34bbc06e-37b4-44e9-8dee-08bae597e855",
+                "company": "SecureFlux",
+                "title": "IDOR on user settings endpoint",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "2b434c58-6e7a-4c50-ab86-4be39082318d",
+                "company": "CyberSentinel",
+                "title": "SQL injection in login form",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "3c1887fd-e0b0-4e4d-9289-84b53e733a2e",
+                "company": "InvisoLogic",
+                "title": "IDOR on user settings endpoint",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "6254b611-fe6b-40e6-8d3b-f7bd26bac1ed",
+                "company": "InvisoLogic",
+                "title": "RCE through log file injection",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "15a36676-76de-4b50-8987-8f3e635be084",
+                "company": "CyberSentinel",
+                "title": "Insecure JWT signature handling",
+                "status": "PAID",
+                "paid": 2383
+            },
+            {
+                "id": "950b6113-8662-46c0-a278-f86760cacda0",
+                "company": "SecureFlux",
+                "title": "Open redirect on email verification link",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "561854b0-e6c9-4502-ab92-c6ddfd0175e4",
+                "company": "ZeroScope",
+                "title": "IDOR on user settings endpoint",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "f614e57d-550b-4104-b2b2-018750d65298",
+                "company": "DarkPatch Labs",
+                "title": "Exposed S3 bucket with PII",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "2b724a37-fd72-4f74-9ae4-28da85e434cd",
+                "company": "SecureFlux",
+                "title": "Broken access control on admin panel",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "098e4977-de1e-4175-b5db-12fb928fe90a",
+                "company": "RedBarrier",
+                "title": "Open redirect on email verification link",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "fe6d8a15-df4c-45d8-8800-53121a613cf9",
+                "company": "QuantumWall",
+                "title": "SQL injection in login form",
+                "status": "PAID",
+                "paid": 4490
+            },
+            {
+                "id": "101c9036-9b36-4d3f-9d7a-b93f24c571f1",
+                "company": "VulneraCorp",
+                "title": "SQL injection in login form",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "512fab5a-c252-4235-b0e8-8170b46008ef",
+                "company": "VulneraCorp",
+                "title": "Broken access control on admin panel",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "285658e1-cda5-42ed-a8a2-b4d45630ba70",
+                "company": "BugNetics",
+                "title": "Open redirect on email verification link",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "102ee6dd-d234-469a-97cf-7665c772e69c",
+                "company": "BugNetics",
+                "title": "IDOR on user settings endpoint",
+                "status": "PAID",
+                "paid": 1269
+            },
+            {
+                "id": "fcc8b685-2b84-4d13-aaf0-73939bd5310b",
+                "company": "RedBarrier",
+                "title": "IDOR on user settings endpoint",
+                "status": "ACCEPTED",
+                "paid": 0
+            }
+        ]
+    },
+    "cbba1083-0b54-4b66-aafd-350eea037d38": {
+        "reports": [
+            {
+                "id": "d021f1cb-45c9-4d3f-9526-0c759fb5da1d",
+                "company": "BugNetics",
+                "title": "Broken access control on admin panel",
+                "status": "PAID",
+                "paid": 1050
+            },
+            {
+                "id": "a210905a-fca0-4bab-a972-ce2cc1880d6e",
+                "company": "HackSecure",
+                "title": "Broken access control on admin panel",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "11c26501-8a73-4a97-8cae-dc91d2e426c8",
+                "company": "DarkPatch Labs",
+                "title": "RCE through log file injection",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "0874c519-0d1c-42df-8410-9b5a97f31ff1",
+                "company": "DarkPatch Labs",
+                "title": "Exposed S3 bucket with PII",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "c396fd2e-b770-4e9b-911e-05345dbe0ee9",
+                "company": "DarkPatch Labs",
+                "title": "Reflected XSS in search parameter",
+                "status": "PAID",
+                "paid": 4763
+            },
+            {
+                "id": "6650cb2c-bca8-47c8-8b4f-0b4abccb8fdb",
+                "company": "SecureFlux",
+                "title": "Insecure JWT signature handling",
+                "status": "PAID",
+                "paid": 2305
+            },
+            {
+                "id": "49a6595c-5c0f-40d8-baff-3261a0695d94",
+                "company": "BugNetics",
+                "title": "Reflected XSS in search parameter",
+                "status": "PAID",
+                "paid": 1186
+            },
+            {
+                "id": "ec42cde2-f286-44b4-9a28-af4276a7c1be",
+                "company": "QuantumWall",
+                "title": "Reflected XSS in search parameter",
+                "status": "PAID",
+                "paid": 3924
+            },
+            {
+                "id": "ac69013a-2b93-4e5c-9e67-76a0fd960a72",
+                "company": "ZeroScope",
+                "title": "RCE through log file injection",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "7958893a-772d-44ee-ad58-5aa694fc9546",
+                "company": "ZeroScope",
+                "title": "Insecure JWT signature handling",
+                "status": "PAID",
+                "paid": 2786
+            },
+            {
+                "id": "e2de3b2d-68b4-4a4f-9902-fd5dafe80dbf",
+                "company": "SecureFlux",
+                "title": "IDOR on user settings endpoint",
+                "status": "PAID",
+                "paid": 707
+            },
+            {
+                "id": "019e9001-562b-41d8-a5d8-7c8efe457d6b",
+                "company": "InvisoLogic",
+                "title": "SQL injection in login form",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "eb3fedc9-c57d-4973-8ce0-dc6484267ccf",
+                "company": "InvisoLogic",
+                "title": "CSRF on payment update form",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "9bbcb0e4-3771-4a9a-a30b-6b5cd0f42b97",
+                "company": "VulneraCorp",
+                "title": "Reflected XSS in search parameter",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "205317d4-daf1-4b9c-a4ae-be846db80f47",
+                "company": "CyberSentinel",
+                "title": "Exposed S3 bucket with PII",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "75b40350-60ab-4c04-942b-94e1e3da582f",
+                "company": "DarkPatch Labs",
+                "title": "Exposed S3 bucket with PII",
+                "status": "PAID",
+                "paid": 1913
+            },
+            {
+                "id": "0caef88e-5566-4e56-a54d-7bcf540e45e0",
+                "company": "RedBarrier",
+                "title": "Broken access control on admin panel",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "05881895-5b59-4684-a1c8-9a2216f1396b",
+                "company": "HackSecure",
+                "title": "Insecure JWT signature handling",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "24c472fd-04ec-49cc-a728-7313d60db1ab",
+                "company": "HackSecure",
+                "title": "SQL injection in login form",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "93456628-31bd-4ab2-bf0b-d498a01f74d8",
+                "company": "HackSecure",
+                "title": "RCE through log file injection",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "47c805d0-5b97-4bea-8ccd-7dede7536d4e",
+                "company": "DarkPatch Labs",
+                "title": "Broken access control on admin panel",
+                "status": "DUPLICATED",
+                "paid": 0
+            }
+        ]
+    },
+    "874d18fc-3479-4cae-a915-01b0bb7a6c49": {
+        "reports": [
+            {
+                "id": "4ffc298f-c23b-49c1-ae35-e5ce381d1890",
+                "company": "ZeroScope",
+                "title": "RCE through log file injection",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "cd4aae96-32bf-4c64-9171-26fc3152cb52",
+                "company": "CyberSentinel",
+                "title": "CSRF on payment update form",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "3d0f5fe5-f352-4acf-a07a-219b09d56b36",
+                "company": "InvisoLogic",
+                "title": "Insecure JWT signature handling",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "02aa45bd-381d-46c7-a50e-8d87cc79b2aa",
+                "company": "VulneraCorp",
+                "title": "Broken access control on admin panel",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "3b88690c-1107-4154-8959-d8230dfa5522",
+                "company": "SecureFlux",
+                "title": "Broken access control on admin panel",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "f9ab342e-e6fd-4882-a306-72fddccc20fa",
+                "company": "RedBarrier",
+                "title": "Insecure JWT signature handling",
+                "status": "PAID",
+                "paid": 4684
+            },
+            {
+                "id": "9f3d36b7-4c9a-4ea9-adc2-5294b0024c6f",
+                "company": "QuantumWall",
+                "title": "RCE through log file injection",
+                "status": "PAID",
+                "paid": 322
+            },
+            {
+                "id": "a903f295-a663-4a89-b3b9-8caba1d23f6c",
+                "company": "SecureFlux",
+                "title": "Insecure JWT signature handling",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "bf4a3921-fcf3-4367-a0a2-dab28d1cd269",
+                "company": "SecureFlux",
+                "title": "Open redirect on email verification link",
+                "status": "PAID",
+                "paid": 1051
+            },
+            {
+                "id": "3ace1c7b-13c3-4943-8ea8-4231d852166e",
+                "company": "ZeroScope",
+                "title": "CSRF on payment update form",
+                "status": "PAID",
+                "paid": 424
+            },
+            {
+                "id": "cba0b9e7-09cb-4eaf-85b8-5ec2a30857c6",
+                "company": "HackSecure",
+                "title": "RCE through log file injection",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "14535821-a3fb-4cdd-a895-74f1cf887e22",
+                "company": "RedBarrier",
+                "title": "Open redirect on email verification link",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "3f8d38c9-a090-40d6-bf8a-6ff8e0d995ab",
+                "company": "SecureFlux",
+                "title": "Exposed S3 bucket with PII",
+                "status": "DUPLICATED",
+                "paid": 0
+            },
+            {
+                "id": "b18b6997-6c57-4dd6-93d6-72ea9399efac",
+                "company": "SecureFlux",
+                "title": "Exposed S3 bucket with PII",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "8559bf59-696b-4006-9011-8aaf9320de66",
+                "company": "BugNetics",
+                "title": "CSRF on payment update form",
+                "status": "PAID",
+                "paid": 137
+            },
+            {
+                "id": "31eed706-eeb7-40cc-b54d-02d2a6dcdad2",
+                "company": "InvisoLogic",
+                "title": "Open redirect on email verification link",
+                "status": "PAID",
+                "paid": 911
+            },
+            {
+                "id": "f4f2cf9d-3749-44c4-a9cb-28c9a1f058ef",
+                "company": "QuantumWall",
+                "title": "Reflected XSS in search parameter",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "a996736d-970e-4dbd-a32a-754620a961d5",
+                "company": "DarkPatch Labs",
+                "title": "Exposed S3 bucket with PII",
+                "status": "PAID",
+                "paid": 1141
+            },
+            {
+                "id": "c567d149-0f98-49f8-ab5f-ff55d12e20f2",
+                "company": "ZeroScope",
+                "title": "Exposed S3 bucket with PII",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "f07257ff-a108-4396-9aba-84ceeacaa35b",
+                "company": "HackSecure",
+                "title": "Open redirect on email verification link",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "5016a08d-b829-47d4-bbeb-18d44e8e0321",
+                "company": "InvisoLogic",
+                "title": "Exposed S3 bucket with PII",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "d3264b5a-0e9b-45f9-be52-32e002bfa0a1",
+                "company": "SecureFlux",
+                "title": "IDOR on user settings endpoint",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "b644f1b6-e731-45ae-bbcb-340d2bc06b35",
+                "company": "BugNetics",
+                "title": "Reflected XSS in search parameter",
+                "status": "ACCEPTED",
+                "paid": 0
+            },
+            {
+                "id": "e87ee73d-810c-4f6d-b32a-eac891f72649",
+                "company": "ZeroScope",
+                "title": "Exposed S3 bucket with PII",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "d26f4b0e-af91-4c6a-a225-5de0e3115d65",
+                "company": "RedBarrier",
+                "title": "RCE through log file injection",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "d5fa1609-ee5b-40d8-9103-7df0e1a160a2",
+                "company": "InvisoLogic",
+                "title": "SQL injection in login form",
+                "status": "PAID",
+                "paid": 1012
+            },
+            {
+                "id": "30f7476c-0a60-4810-b197-1b061708ce28",
+                "company": "VulneraCorp",
+                "title": "IDOR on user settings endpoint",
+                "status": "N/A",
+                "paid": 0
+            },
+            {
+                "id": "fc623d30-62ab-45e2-beb5-201076b34ab3",
+                "company": "HackSecure",
+                "title": "IDOR on user settings endpoint",
+                "status": "DUPLICATED",
+                "paid": 0
+            }
+        ]
+    },
+    "fd55a401-b110-4821-9155-add4653cb992": {
+        "reports": [
+            {
+                "id": "f9aa28ef-7008-424e-86fb-4271b131b155",
+                "company": "Yahoo!",
+                "title": "SSRF leading to an RCE through PDF Generator",
+                "status": "PENDING",
+                "paid": 0
+            }
+        ]
+    }
+}
