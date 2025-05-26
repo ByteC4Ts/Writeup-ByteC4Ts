@@ -2,14 +2,14 @@
 
 ## 2024
 
-| Event                                                     |   Rank   | Top % |
-| --------------------------------------------------------- | :------: | :---: |
-| [BlueHens CTF](https://ctftime.org/event/2512/)           |  33/498  | 6.7%  |
-| [1337Up Live CTF](https://ctftime.org/event/2446)         | 140/1061 |  14%  |
-| [WannaGame Championship](https://ctftime.org/event/2515/) |  41/311  |  14%  |
-| [Nite CTF](https://ctftime.org/event/2461)                | 235/1174 |  21%  |
-| [m0leCon Beginner CTF](https://ctftime.org/event/2578)    |  22/182  |  13%  |
-| [0xl4ugh CTF](https://ctftime.org/event/2587)             | 125/308  |  41%  |
+| Event                                                     |   Rank   | Top % |           Writeups/Solutions           |
+| --------------------------------------------------------- | :------: | :---: | :------------------------------------: |
+| [BlueHens CTF](https://ctftime.org/event/2512/)           |  33/498  | 6.7%  |      [Github](2024/BlueHens-CTF/)      |
+| [1337Up Live CTF](https://ctftime.org/event/2446)         | 140/1061 |  14%  |      [Github](2024/1337-Up-Live/)      |
+| [WannaGame Championship](https://ctftime.org/event/2515/) |  41/311  |  14%  | [Github](2024/WannaGame-Championship/) |
+| [Nite CTF](https://ctftime.org/event/2461)                | 235/1174 |  21%  |        [Github](2024/niteCTF/)         |
+| [m0leCon Beginner CTF](https://ctftime.org/event/2578)    |  22/182  |  13%  |  [Github](/2024/m0leCon-Beginner-CTF/)  |
+| [0xl4ugh CTF](https://ctftime.org/event/2587)             | 125/308  |  41%  |      [Github](./2024/0xl4ugh-CTF/)       |
 
 ## 2025
 
