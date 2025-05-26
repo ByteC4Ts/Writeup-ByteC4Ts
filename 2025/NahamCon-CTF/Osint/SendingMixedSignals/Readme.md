@@ -5,7 +5,7 @@
 ```
 Turns out the Houthi PC Small Group was only the tip of the iceberg...  
   
-**Connect with:** http://challenge.nahamcon.com:32718
+Connect with: http://challenge.nahamcon.com:32718
 ```
 
 ## **Solve**
