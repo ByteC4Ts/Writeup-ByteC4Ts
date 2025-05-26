@@ -16,7 +16,7 @@ Well anyway, I think I remember the password was just **`password`**!
 
 - We open the image and see the dump of a zip file.
 
-![[Screenshot.png]]
+![Screenshot](Screenshot.png)
 
 - We ask chatGPT to write the metadata in the image to a file.
 - It gives us the following hex dump:
