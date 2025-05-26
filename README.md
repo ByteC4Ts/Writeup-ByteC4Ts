@@ -24,7 +24,7 @@
 | [1753 CTF](https://ctftime.org/event/2639)                    |  43/467  | 9.3%  |             [Github](2025/1753CTF/)             |
 | [Dawg CTF](https://ctftime.org/event/2651)                    |  82/760  |  11%  |                                                 |
 | [DevSecOps CTF](https://ctftime.org/event/2682)               |  27/449  | 6.1%  |                                                 |
-| [Break the Syntax CTF](https://ctftime.org/event/2749)        |  74/484  |  16%  |                                                 |
+| [Break the Syntax CTF](https://ctftime.org/event/2749)        |  74/484  |  16%  |      [Github](2025/Break-The-Syntax-CTF/)       |
 | [DamCTF 2025](https://ctftime.org/event/2585)                 | 124/781  |  16%  |                                                 |
 | [Midnight Sun CTF 2025 Quals](https://ctftime.org/event/2632) |  59/577  |  11%  |                                                 |
 | [NahamCon CTF 2025](https://ctftime.org/event/2782)           | 41/1721  | 2.4%  |                                                 |
