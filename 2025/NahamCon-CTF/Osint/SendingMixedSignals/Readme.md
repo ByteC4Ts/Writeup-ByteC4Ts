@@ -12,7 +12,7 @@ Turns out the Houthi PC Small Group was only the tip of the iceberg...
 
 - We access the server and see this page.
 
-!(Signal-main)[./img/Signal-main.png)
+![Signal-main](./img/Signal-main.png)
 
 - This is the [link](https://www.theatlantic.com/politics/archive/2025/03/trump-administration-accidentally-texted-me-its-war-plans/682151/) they provided in the challenge.
 - It talks about some leaked military plan because they used a knock-off version of signal.
@@ -105,7 +105,7 @@ git show e9af27c382a86c3f2f666d479c1f7215ed18df9e
 - We verify that it's the commit where the credentials were added.
 - We check the tag in the commit and find the version.
 
-![[version.png]]
+![version](./img/version.png)
 
 - The answer to the third question is: `Release_5.4.11.20`
 
