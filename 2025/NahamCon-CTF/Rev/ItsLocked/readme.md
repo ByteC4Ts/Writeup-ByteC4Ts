@@ -1,9 +1,7 @@
 # It's Locked
 
-```
-This bin looks locked as a crypt to me, but I'm sure you can work some magic here.
-All I know is that this came from a machine with a cryptic ID of just 'hello'.
-```
+> This bin looks locked as a crypt to me, but I'm sure you can work some magic here.
+> All I know is that this came from a machine with a cryptic ID of just 'hello'.
 
 ## Approach
 
@@ -38,8 +36,8 @@ And get `flag_simplified.sh` which includes a long Base64 string. We can decode 
 ```sh
 _bcl_verify_dec ()
 {
-    [ "TEST-VALUE-VERIFY" != "$(echo "$BCV" | openssl enc -d -aes-256-cbc -md sha256 -nosalt -k "B-\${1}-\${UID}" -a -A 2> /dev/null)" ] && return 255;
-    echo "$1-\${UID}"
+    [ "TEST-VALUE-VERIFY" != "$(echo "$BCV" | openssl enc -d -aes-256-cbc -md sha256 -nosalt -k "B-${1}-${UID}" -a -A 2> /dev/null)" ] && return 255;
+    echo "$1-${UID}"
 }
 _bcl_verify() { _bcl_verify_dec "$@"; }
 _bcl_get ()
@@ -49,7 +47,7 @@ _bcl_get ()
     command -v dmidecode > /dev/null && _bcl_verify "$(dmidecode -t 1 2> /dev/null | LANG=C perl -ne '/UUID/ && print && exit')" && return;
     _bcl_verify "$({ ip l sh dev "$(LANG=C ip route show match 1.1.1.1 | perl -ne 's/.*dev ([^ ]*) .*/\1/ && print && exit')" | LANG=C perl -ne 'print if /ether / && s/.*ether ([^ ]*).*/\1/'; } 2> /dev/null)" && return;
     _bcl_verify "$({ blkid -o export | LANG=C perl -ne '/^UUID/ && s/[^[:alnum:]]//g && print && exit'; } 2> /dev/null)" && return;
-    _bcl_verify "$({ fdisk -l | LANG=C perl -ne '/identifier/i && s/[^[:alnum:]]//g && print && exit'; } 2> /dev/null)" && return;
+    _bcl_verify "$({ fdisk -l | LANG=C perl -ne '/identifier/i && s/[^[:alnum:]]//g && print && exit'; } 2> /dev/null)" && return
 }
 _bcl_gen_p ()
 {
@@ -65,7 +63,7 @@ _bcl_gen_p ()
     BCL="$(echo "$BCL" | openssl base64 -d -A 2> /dev/null)";
     [ "$BCL" -eq "$BCL" ] 2> /dev/null && exit "$BCL";
     str="$(echo "$BCL" | openssl base64 -d -A 2> /dev/null)";
-    BCL="\${str:-$BCL}";
+    BCL="${str:-$BCL}";
     exec /bin/sh -c "$BCL";
     exit 255
 }
@@ -79,19 +77,19 @@ for x in openssl perl gunzip; do
 done
 unset fn _err
 if [ -n "$ZSH_VERSION" ]; then
-    [ "$ZSH_EVAL_CONTEXT" != "\${ZSH_EVAL_CONTEXT%":file:"*}" ] && fn="$0"
+    [ "$ZSH_EVAL_CONTEXT" != "${ZSH_EVAL_CONTEXT%":file:"*}" ] && fn="$0"
 elif [ -n "$BASH_VERSION" ]; then
-    (return 0 2>/dev/null) && fn="\${BASH_SOURCE[0]}"
+    (return 0 2>/dev/null) && fn="${BASH_SOURCE[0]}"
 fi
-fn="\${BC_FN:-$fn}"
-XS="\${BASH_EXECUTION_STRING:-$ZSH_EXECUTION_STRING}"
+fn="${BC_FN:-$fn}"
+XS="${BASH_EXECUTION_STRING:-$ZSH_EXECUTION_STRING}"
 [ -z "$XS" ] && unset XS
 [ -z "$fn" ] && [ -z "$XS" ] && [ ! -f "$0" ] && {
     echo >&2 'ERROR: Shell not supported. Try "BC_FN=FileName source FileName"'
     _err=1
 }
 _bc_dec() {
-    _P="\${PASSWORD:-$BC_PASSWORD}"
+    _P="${PASSWORD:-$BC_PASSWORD}"
     unset _ PASSWORD
     if [ -n "$P" ]; then
         if [ -n "$BCV" ] && [ -n "$BCL" ]; then
@@ -107,7 +105,7 @@ _bc_dec() {
     fi
     [ -n "$C" ] && {
         local str
-        str="$(echo "$C" | openssl enc -d -aes-256-cbc -md sha256 -nosalt -k "C-\${S}-\${_P}" -a -A 2>/dev/null)"
+        str="$(echo "$C" | openssl enc -d -aes-256-cbc -md sha256 -nosalt -k "C-${S}-${_P}" -a -A 2>/dev/null)"
         unset C
         [ -z "$str" ] && {
             [ -n "$BCL" ] && echo >&2 "ERROR: Decryption failed."
@@ -117,17 +115,17 @@ _bc_dec() {
         unset str
     }
     [ -n "$XS" ] && {
-        exec bash -c "$(printf %s "$XS" |LANG=C perl -e '<>;<>;read(STDIN,$_,1);while(<>){s/B3/\n/g;s/B1/\x00/g;s/B2/B/g;print}'|openssl enc -d -aes-256-cbc -md sha256 -nosalt -k "\${S}-\${_P}" 2>/dev/null|LANG=C perl -e "read(STDIN,\$_, \${R:-0});print(<>)"|gunzip)"
+        exec bash -c "$(printf %s "$XS" |LANG=C perl -e '<>;<>;read(STDIN,$_,1);while(<>){s/B3/\n/g;s/B1/\x00/g;s/B2/B/g;print}'|openssl enc -d -aes-256-cbc -md sha256 -nosalt -k "${S}-${_P}" 2>/dev/null|LANG=C perl -e "read(STDIN,\$_, ${R:-0});print(<>)"|gunzip)"
     }
     [ -z "$fn" ] && [ -f "$0" ] && {
         zf='read(STDIN,\$_,1);while(<>){s/B3/\n/g;s/B1/\\x00/g;s/B2/B/g;print}'
-        prg="perl -e '<>;<>;$zf'<'\${0}'|openssl enc -d -aes-256-cbc -md sha256 -nosalt -k '\${S}-\${_P}' 2>/dev/null|perl -e 'read(STDIN,\\\$_, \${R:-0});print(<>)'|gunzip"
-        LANG=C exec perl '-e$^F=255;for(319,279,385,4314,4354){($f=syscall$_,$",0)>0&&last};open($o,">&=".$f);open($i,"'"$prg"'|");print$o(<$i>);close($i)||exit($?/256);$ENV{"LANG"}="'"$LANG"'";exec{"/proc/$$/fd/$f"}"'"\${0:-python3}"'",@ARGV' -- "$@"
+        prg="perl -e '<>;<>;$zf'<'${0}'|openssl enc -d -aes-256-cbc -md sha256 -nosalt -k '${S}-${_P}' 2>/dev/null|perl -e 'read(STDIN,\\\$_, ${R:-0});print(<>)'|gunzip"
+        LANG=C exec perl '-e$^F=255;for(319,279,385,4314,4354){($f=syscall$_,$",0)>0&&last};open($o,">&=".$f);open($i,"'"$prg"'|");print$o(<$i>);close($i)||exit($?/256);$ENV{"LANG"}="'"$LANG"'";exec{"/proc/$$/fd/$f"}"'"${0:-python3}"'",@ARGV' -- "$@"
     }
-    [ -f "\${fn}" ] && {
+    [ -f "${fn}" ] && {
         unset -f _bcl_get _bcl_verify _bcl_verify_dec
         unset BCL BCV _ P _err
-        eval "unset _P S R fn;$(LANG=C perl -e '<>;<>;read(STDIN,$_,1);while(<>){s/B3/\n/g;s/B1/\x00/g;s/B2/B/g;print}'<"\${fn}"|openssl enc -d -aes-256-cbc -md sha256 -nosalt -k "\${S}-\${_P}" 2>/dev/null|LANG=C perl -e "read(STDIN,\$_, \${R:-0});print(<>)"|gunzip)"
+        eval "unset _P S R fn;$(LANG=C perl -e '<>;<>;read(STDIN,$_,1);while(<>){s/B3/\n/g;s/B1/\x00/g;s/B2/B/g;print}'<"${fn}"|openssl enc -d -aes-256-cbc -md sha256 -nosalt -k "${S}-${_P}" 2>/dev/null|LANG=C perl -e "read(STDIN,\$_, ${R:-0});print(<>)"|gunzip)"
         return
     }
     [ -z "$fn" ] && return
@@ -195,7 +193,7 @@ Then we can get the string `"QHh4K9JfgoACd2f4"` by running the above command, wh
 str="$(echo "$C" | openssl enc -d -aes-256-cbc -md sha256 -nosalt -k "C-${S}-${_P}" -a -A 2>/dev/null)"
 ```
 
-Here `str` turns out to be `"R=2105\\n\\n"`.
+Here `str` turns out to be `"R=2105\n\n"`.
 
 ## Flag
 
