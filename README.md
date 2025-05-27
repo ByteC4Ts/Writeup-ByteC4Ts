@@ -40,4 +40,4 @@
  -->
 
 [1kuzus-event2639]: https://1kuzus.github.io/25b/wp-1753ctf-2025/
-[0x42697262-event2674]: https://0x42697262.github.io/birbrain/writeups/HackTheBox/a-new-hire.html
+[0x42697262-event2674]: https://0x42697262.github.io/birbrain/writeups/HackTheBox/ctf-cyber-apocalypse.html#_cyber_apocalypse_ctf_2025_tales_from_eldoria
