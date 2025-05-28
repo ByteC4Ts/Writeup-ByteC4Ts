@@ -1,6 +1,6 @@
 # findings
 # length: 5n -> 8n
-# custom base32 charset: ybndrfg8ejkmcpqxot1uwisza345h769
+# custom base32 alphabet: ybndrfg8ejkmcpqxot1uwisza345h769
 
 # tests
 # 00000 -> gyadycbo
@@ -13,10 +13,10 @@
 
 import base64
 
-b32_charset = "abcdefghijklmnopqrstuvwxyz234567"
-custom_base32_charset = "ybndrfg8ejkmcpqxot1uwisza345h769"
-table_enc = str.maketrans(b32_charset, custom_base32_charset)
-table_dec = str.maketrans(custom_base32_charset, b32_charset)
+b32_alphabet = "abcdefghijklmnopqrstuvwxyz234567"
+custom_base32_alphabet = "ybndrfg8ejkmcpqxot1uwisza345h769"
+table_enc = str.maketrans(b32_alphabet, custom_base32_alphabet)
+table_dec = str.maketrans(custom_base32_alphabet, b32_alphabet)
 
 
 def custom_base32_encode(data):
