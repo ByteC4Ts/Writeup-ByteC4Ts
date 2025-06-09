@@ -28,6 +28,9 @@
 | [DamCTF 2025](https://ctftime.org/event/2585)                 | 124/781  |  16%  |                                                                                      |
 | [Midnight Sun CTF 2025 Quals](https://ctftime.org/event/2632) |  59/577  |  11%  |                                                                                      |
 | [NahamCon CTF 2025](https://ctftime.org/event/2782)           | 41/1721  | 2.4%  |                             [Github](2025/NahamCon-CTF/)                             |
+| [D^3CTF 2025](https://ctftime.org/event/2770)                 |  54/647  | 8.4%  |                                                                                      |
+| [N0PSCTF 2025](https://ctftime.org/event/2486)                | 53/1234  | 4.3%  |                               [Github](2025/N0PSCTF/)                                |
+| [TJCTF 2025](https://ctftime.org/event/2809)                  |  26/723  | 3.6%  |                                                                                      |
 
 <!-- links -->
 
