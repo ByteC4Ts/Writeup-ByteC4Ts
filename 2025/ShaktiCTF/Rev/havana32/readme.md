@@ -12,7 +12,7 @@ After some quick static analysis, I notice that there's a suspicious function `s
 
 There's great chance that the password is the flag, which is `49` bytes long.
 
-Function `sub_401300` seems to implement a VM with a custom instruction set, however, for this challenge I notice that `dword_4474B8 == 49` is checked before the function returns, and there's also `++dword_4474B8` at line 104, this looks like a verification of the password byte by byte.
+Function `sub_401300` seems to implement a VM with a custom instruction set, however, we don't need to fully understand it to solve the challenge. I notice that `dword_4474B8 == 49` is checked before the function returns, and there's also `++dword_4474B8` at line 104, this looks like a verification of the password byte by byte.
 
 ![3.jpg](3.jpg)
 
