@@ -32,6 +32,8 @@
 | [N0PSCTF 2025](https://ctftime.org/event/2486)                | 53/1234  | 4.3%  |               [Github](2025/N0PSCTF/) / [Official][official-2486]               |
 | [TJCTF 2025](https://ctftime.org/event/2809)                  |  26/723  | 3.6%  |                              [Github](2025/TJCTF/)                              |
 | [Shakti CTF 2025](https://ctftime.org/event/2803)             |  26/554  | 4.7%  |                            [Github](2025/ShaktiCTF/)                            |
+| [World Wide CTF 2025](https://ctftime.org/event/2753)         |  94/850  |  11%  |                                                                                 |
+| [idekCTF 2025](https://ctftime.org/event/2746)                |  64/843  | 7.6%  |                             [Github](2025/idekCTF/)                             |
 
 <!-- links -->
 <!--
