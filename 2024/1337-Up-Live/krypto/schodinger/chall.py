@@ -7,7 +7,7 @@ import string
 
 FLAG = os.getenv("FLAG", (
     "Not the flag you're searching for, Keep looking close, there's plenty more. "
-    "INTIGRITI{TODO} A clue I might be, but not the key, The flag is hidden, not in me!!!"
+    "INTIGRITI{4a9f2b823dc8d09fd732d741954ccce2} A clue I might be, but not the key, The flag is hidden, not in me!!!"
 ))
 
 MAX_LENGTH = 160
@@ -53,6 +53,7 @@ def handle_client(client_socket):
         client_socket.send(b"\nAnyway, why don't you try it for yourself?\n")
 
         plaintext = client_socket.recv(1024).strip()
+        print(plaintext)
 
         if len(plaintext) > MAX_LENGTH:
             client_socket.send(

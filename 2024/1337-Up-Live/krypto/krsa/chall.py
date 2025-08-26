@@ -11,7 +11,7 @@ def timeout_handler(signum, frame):
 # signal.signal(signal.SIGALRM, timeout_handler)
 # signal.alarm(300)
 
-FLAG = "INTIGRITI{ju57_4_f4k3_fl49_aaaaaa}"
+FLAG = "INTIGRITI{4a9f2b823dc8d09fd732d741954ccce2}"
 SIZE = 32
 
 

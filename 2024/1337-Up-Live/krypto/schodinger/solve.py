@@ -1,23 +1,22 @@
 from pwn import *
-import os
+context.log_level = 'debug'
 
-os.chdir(os.path.dirname(os.path.abspath(__file__)))
-
-
-PAYLOAD = b"3rg0u" * 32
-
+PAYLOAD = b"c4ts" * 40
 
 def check():
     io = remote("pad.ctf.intigriti.io", 1348)
-    io.recvuntil(b"Encrypted (cat state=ERROR! 'cat not in box'): ")
-    flag_encrypted = bytes.fromhex(io.recvline().decode().strip())
-    io.recvuntil(b"\nAnyway, why don't you try it for yourself?\n")
-    io.sendline(PAYLOAD)
-    s = io.recvline().decode().strip().split(": ")
-    state = "alive" in s[0]
-    c_cipher = bytes.fromhex(s[1])
+    # io = remote("localhost", 1337)
+
+
+    enc_flag = bytes.fromhex(io.recvline_contains(b'cat not in box').decode().strip().split(': ')[1])
+    io.sendafter(b'you try it for yourself?', PAYLOAD)
+    respone = io.recvline_contains(b'cat state')
+    print(respone)
+
+    state = b'alive' in respone
+    c_cipher = bytes.fromhex(respone.decode().split(': ')[1])
     io.close()
-    return state, flag_encrypted, c_cipher
+    return state, enc_flag, c_cipher
 
 
 def ret(cs):
@@ -28,18 +27,14 @@ def ret(cs):
 
 
 def main():
-    state, flag_encrypted, c_cipher = check()
+    state, enc_flag, c_cipher = check()
     while not state:
-        state, flag_encrypted, c_cipher = check()
+        state, enc_flag, c_cipher = check()
     c_cipher = ret(c_cipher)
     key = xor(PAYLOAD, c_cipher)
-    flag = xor(flag_encrypted, key)
+    flag = xor(enc_flag, key)
     print(flag)
 
 
 if __name__ == "__main__":
     main()
-
-"""
-b"Schrodinger's cat in a quantum bind, INTIGRITI{d34d_0r_4l1v3} hidden, hard to find. Is it alive, or has fate been spun? In superposition, the game's never done."
-"""
