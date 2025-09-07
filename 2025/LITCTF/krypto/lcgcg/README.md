@@ -20,7 +20,7 @@ $$
 and finally
 
 $$
-a \equiv (X_{n+2} - X_{n+1})^{-1} * (X_{n+1} - X_{n}) \mod{m}
+a \equiv (X_{n+2} - X_{n+1}) * (X_{n+1} - X_{n})^{-1} \mod{m}
 $$
 
 
