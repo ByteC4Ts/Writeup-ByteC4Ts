@@ -5,10 +5,10 @@ An collaboration of RSA cryptosystem and [LCG](https://en.wikipedia.org/wiki/Lin
 Let me re-write LCG formula here:
 
 $$
-X_{k+1} \equiv a * X_k + c \mod{n}
+X_{k+1} \equiv a * X_k + b \mod{n}
 $$
 
-In this challenge, `m` is not given, so we need to recover `m` first. The fact that,
+In this challenge, $n$ is not given, so we need to recover $n$ first. The fact that,
 
 $$
 \begin{cases}
