@@ -35,6 +35,8 @@
 | [World Wide CTF 2025](https://ctftime.org/event/2753)         |  94/850  |  11%  |                                                                               |
 | [idekCTF 2025](https://ctftime.org/event/2746)                |  64/843  | 7.6%  |                             [Ours](2025/idekCTF/)                             |
 | [LIT CTF 2025](https://ctftime.org/event/2890)                |  26/651  | 4.0%  |                             [Ours](2025/LITCTF/)                              |
+| [CRACCON CTF 2025 quals](https://ctftime.org/event/2879)      |  5/171   | 3.0%  |                                                                               |
+| [CSAW CTF 2025 quals](https://ctftime.org/event/2903)         |  88/407  |  22%  |                                                                               |
 
 <!-- links -->
 <!--
