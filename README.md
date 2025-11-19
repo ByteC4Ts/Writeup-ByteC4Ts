@@ -37,6 +37,8 @@
 | [LIT CTF 2025](https://ctftime.org/event/2890)                |  26/651  | 4.0%  |                             [Ours](2025/LITCTF/)                              |
 | [CRACCON CTF 2025 quals](https://ctftime.org/event/2879)      |  5/171   | 3.0%  |                                                                               |
 | [CSAW CTF 2025 quals](https://ctftime.org/event/2903)         |  88/407  |  22%  |                                                                               |
+| [Buckeye CTF 2025](https://ctftime.org/event/2883)            |  42/716  | 5.9%  |                                                                               |
+| [PwnSec CTF 2025](https://ctftime.org/event/2906)             |  23/432  | 5.4%  |                                                                               |
 
 <!-- links -->
 <!--
